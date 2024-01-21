@@ -3,7 +3,7 @@ session_start();
 ob_start();
 set_time_limit(300);
 
-$sql = ['127.0.0.1', 'vdsupload', 'fwfHoCMlgU64JVJd', 'vdsupload']; // DB credentials: IP, User, password, database
+$sql = ['127.0.0.1', 'disupload', 'disupload', 'disupload']; // DB credentials: IP, User, password, database
 $webhook = 'https://discord.com/api/webhooks/'; // set your webhook here 
 $mysqli = new mysqli($sql[0],$sql[1],$sql[2],$sql[3]);
 
