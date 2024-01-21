@@ -21,7 +21,7 @@ if(isset($_GET['id'])){
     $mail->CharSet = 'UTF-8';
 
     //Recipients
-    $mail->setFrom('admin@mrcheat.org', 'File sharing service');
+    $mail->setFrom('admin@example.org', 'File sharing service');
     //Attachments
     $mail->addAddress($_GET['email']);
     $mail->isHTML(true);                                  //Set email format to HTML
